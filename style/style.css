@@ -1,0 +1,304 @@
+
+
+/* 
+
+
+header {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    background-image: url('../images/Banner Image.png');
+    width: 1320px;
+    height: 600px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title{
+    font-size: 32px;
+    
+
+}
+.header-txt{
+    font-size: 72px;
+    margin-top: 16px;
+   
+} */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Categories*/
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+.discountt{
+    font-size: 72px;
+    color: rgba(255, 0, 0, 1);
+    margin-bottom: 0;
+}
+/*party*/
+.party-banner{
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    width: 1350px;
+    height: 600px;
+    margin-top: 120px;
+    
+    
+}
+.party-header{
+    color: white;
+    font-size: 64px;
+    margin-top: 120px;
+    margin-left: 126px;
+    
+}
+.party-description{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 48px;
+    margin-left: 126px;
+}
+.party-banner a{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    font-weight: bold;
+    margin-left: 126px;
+    
+}
+/*JOIN*/
+.join{
+    margin-top: 120px;
+    text-align: center;
+    width: 1350px;
+    height: 482px;
+    border-radius: 20px;
+    background-image: linear-gradient(#fac0c0, #fff);
+    font-size: 32px;
+  
+
+}
+button{
+    padding:16px 32px ;
+    color: #fff;
+    border: none;
+    background-color: rgba(255, 0, 0, 1);
+    border-radius: 10px;
+}
+
+/*best-offers*/
+.best-offers{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 120px;
+    width: 1320px;
+}
+.some-texts{
+    width: 30%;
+}
+.best-offers p{
+    color: rgba(7, 2, 17, 0.6);
+    
+}
+.img{
+    border: 15px solid rgba(255, 0, 0, 1);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
+
+.img img{
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    
+}
+
+.year{
+    width: 30%;
+}
+.year h2{
+    font-size: 48px;
+    color: rgba(255, 0, 0, 1);
+    font-weight: bold;
+
+}
+
+/*SALE*/
+.sale{
+    margin-top: 120px;
+}
+.sale p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.gift-img{
+    background-image: url('../images/Rectangle\ 2.png');
+    width: 1320px;
+   margin-top: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.box{
+   
+  position: relative;
+}
+.discount{
+    position: absolute;
+  top: 20px;
+  right: 30px;
+  margin-bottom: 50px;
+  
+  height: auto;
+}
+
+/*PORTFOLIO*/
+.portfolio{
+    width: 1320px;
+}
+.portfolio-images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    
+}
+portfolio img{
+  
+   width: 32%;
+   margin-top: 20px;
+}
+
+/*SUBSCRIBE*/
+.subscribe{
+    height: 600px;
+    width: 1320px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.05);
+
+}
+.subscribe img{
+    margin-top:80px ;
+    margin-bottom: 40px;
+    height: 150px;
+    width: 150px;
+}
+
+.subscribe p{
+    margin-top: 0;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    border-radius: 15px 0 0 15px;
+    border: none;
+    padding: 1rem;
+}
+.subscribe button{
+    border-radius: 0 15px 15px 0;
+    border: 1px solid rgba(255, 0, 0, 1);
+
+}
+/*footer*/
+footer{
+    
+    margin: 120px 0 0 0;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+.address{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+   
+}
+.socal-media-images{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 98px;
+}
+.right-reserved{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Shared resourcces*/
+.inter-font{
+font-family: "Open Sans", sans-serif;
+   font-weight: normal; /* Or normal, bold, etc. */
+   font-style: normal;
+}
+.meriwriter-font{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+span{color: red;}
+
+
+.heading{
+    font-size: 72px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+.section-sub-heading{
+    color: rgba(255, 0, 0, 1);
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+}
+.section-heading{
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgba(7, 2, 17, 1);
+}
