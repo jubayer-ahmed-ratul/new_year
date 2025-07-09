@@ -1,33 +1,26 @@
 
 
-/* 
-
-
-header {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    background-image: url('../images/Banner Image.png');
+header{
+    display: flex;
+    flex-direction: column;
+}
+.items{
     width: 1320px;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     color: white;
+    background-image: url('../images/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    border-radius: 20px;
+    align-self: center;
+}
+header h3{
+    margin-top: 177px;
 }
 
-.header-title{
-    font-size: 32px;
-    
-
-}
-.header-txt{
-    font-size: 72px;
-    margin-top: 16px;
-   
-} */
 main{
     display: flex;
     flex-direction: column;
@@ -51,20 +44,23 @@ main{
 }
 /*party*/
 .party-banner{
-    background-image: url(../images/Vectorrr.png);
+    background-image: url(../images/banner2.png);
     background-position: center;
     background-size: cover;
     border-radius: 20px;
     width: 1350px;
-    height: 600px;
+    height: 630px;
     margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
     
 }
 .party-header{
     color: white;
     font-size: 64px;
-    margin-top: 120px;
+    
     margin-left: 126px;
     
 }
@@ -82,6 +78,11 @@ main{
     margin-left: 126px;
     
 }
+
+.party-banner img{
+    height: 400px;
+    margin-top: 30px;
+}
 /*JOIN*/
 .join{
     margin-top: 120px;
@@ -90,9 +91,14 @@ main{
     height: 482px;
     border-radius: 20px;
     background-image: linear-gradient(#fac0c0, #fff);
-    font-size: 32px;
+    font-size: 25px;
   
 
+}
+
+.join h4{
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 button{
     padding:16px 32px ;
@@ -100,6 +106,7 @@ button{
     border: none;
     background-color: rgba(255, 0, 0, 1);
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 /*best-offers*/
